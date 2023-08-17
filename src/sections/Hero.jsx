@@ -1,4 +1,4 @@
-import cv from "../assets/pdf/kirana-cascade-cv.pdf";
+import cv from "../assets/pdf/cv-kirana-cascade.pdf";
 import picture from "../assets/kirana-cascade.png";
 
 export default function Hero() {
@@ -22,7 +22,7 @@ export default function Hero() {
               Download CV
             </a>
           </div>
-          <div data-aos="fade-left" className="w-full self-end px-4 md:w-1/2 lg:w-5/12">
+          <div className="w-full self-end px-4 md:w-1/2 lg:w-5/12">
             <div className="relative lg:right-0">
               <div className="absolute top-4 -left-4 w-72 h-72 md:scale-125 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
               <div className="absolute top-4 right-10 lg:-righ-4 w-72 h-72 md:scale-125 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob animation-delay-2000"></div>
