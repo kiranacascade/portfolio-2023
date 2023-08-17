@@ -1,4 +1,4 @@
-import cv from "../assets/pdf/cv-kirana-cascade.pdf";
+import cv from "../assets/pdf/kirana-cascade-cv.pdf";
 import picture from "../assets/kirana-cascade.png";
 
 export default function Hero() {
