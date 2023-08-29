@@ -1,5 +1,6 @@
 import cv from "../assets/pdf/cv-kirana-cascade.pdf";
 import picture from "../assets/kirana-cascade.png";
+import { ArrowSmallRightIcon } from "@heroicons/react/24/outline";
 
 export default function Hero() {
   return (
@@ -18,8 +19,12 @@ export default function Hero() {
               A <b>Visual Communication Design graduate</b> exploring <b>Full Stack Web Development</b>, fusing design finesse with coding for captivating digital experiences. On a continuous journey of learning and growth, I eagerly
               explore the dynamic convergence of creativity and technology. Let's embark on this exciting path together!
             </p>
-            <a href={cv} download="cv-kirana-cascade.pdf" className="text-white text-base font-semibold bg-primary py-2 px-8 rounded-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+            <a href={cv} download="cv-kirana-cascade.pdf" className="text-white text-base font-semibold bg-primary py-2 px-6 rounded-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mr-6">
               Download CV
+            </a>
+            <a href="https://github.com/kiranacascade" target="_blank" rel="noopener noreferrer" className="text-darkGray text-base font-semibold py-2 hover:underline hover:underline-offset-2 duration duration-300">
+              See my Github
+              <ArrowSmallRightIcon className="inline ml-1 h-5 w-5" aria-hidden="true" />
             </a>
           </div>
           <div className="w-full self-end px-4 md:w-1/2 lg:w-5/12">

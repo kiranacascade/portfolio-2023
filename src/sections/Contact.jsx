@@ -66,14 +66,17 @@ export default function Contact() {
           <p data-aos="fade-up" className="mt-2">
             Feel free to reach out anytime!
           </p>
-          <p data-aos="fade-up" className="">
+          <p data-aos="fade-up" className="mb-6">
             Have something to discuss? Don't hesitate to contact me!
           </p>
+          <a data-aos="fade-up" className="px-5 py-1.5 rounded-lg border hover:bg-white font-medium hover:font-bold hover:text-primary bg-primary text-white transition duration-300" href="mailto:kirana23devita@gmail.com">
+            Contact Me
+          </a>
         </div>
 
         <div data-aos="fade-up" className="mt-12 flex justify-center space-x-10">
           {navigation.social.map((item) => (
-            <a key={item.name} target="_blank" href={item.href} className="text-gray-400 hover:text-gray-500">
+            <a key={item.name} target="_blank" href={item.href} rel="noopener noreferrer" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-7 w-7" aria-hidden="true" />
             </a>
